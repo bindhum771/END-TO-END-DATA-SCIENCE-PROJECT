@@ -1,4 +1,4 @@
-# 🌼 Full Data Science Project with Flask
+![Screenshot (85)](https://github.com/user-attachments/assets/311f66a3-98f7-4c01-a60b-f909d2604d9c)![Screenshot (86)](https://github.com/user-attachments/assets/f2fda0e0-2e5c-41eb-bfcf-c38d73cd0673)# 🌼 Full Data Science Project with Flask
 
 # 📊 Customer Churn Prediction Project
 
@@ -28,5 +28,15 @@ Try advanced models (XGBoost, Logistic Regression) & tune hyperparameters
 Improve web UI with Bootstrap & add visual probability bars
 Add explainability (SHAP/LIME) to show why customers may churn
 Deploy the app to cloud (Heroku, Render) for public access
+
+#Screenshots:
+![Screenshot (84)](https://github.com/user-attachments/assets/620f74de-a907-46c5-8bcf-baceb1b612ee)
+![Screenshot (85)](https://github.com/user-attachments/assets/fa062877-cd01-4bd3-9d15-39fa09ababc1)
+![Screenshot (86)](https://github.com/user-attachments/assets/f8dc09a8-53b9-40e4-b1a0-208214fafa3e)
+
+
+
+
+
 
 Enjoy exploring and extending this project! 🚀
