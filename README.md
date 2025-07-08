@@ -1,67 +1,32 @@
 # 🌼 Full Data Science Project with Flask
 
-This project shows an end-to-end data science workflow: from data exploration to training a machine learning model, and deploying it as a web app using Flask.
+# 📊 Customer Churn Prediction Project
 
-## 📦 Project Structure
-```
-full_data_science_project_flask/
-├── data_pipeline.ipynb        # Data exploration and visualization
-├── train_model.py            # Train and save the ML model
-├── app.py                    # Flask app to serve predictions
-├── model/
-│   └── iris_model.pkl        # Saved trained model
-├── templates/
-│   └── index.html            # HTML template
-├── static/
-│   └── style.css             # CSS for styling
-└── requirements.txt          # Python dependencies
-```
+End-to-end data science project from data collection to deployment.
 
-## ⚙️ How to run
+## 📦 Contents
+- notebooks/: Data exploration, preprocessing & model training
+- app/: Flask app to deploy model
+- model/: Saved model
+- requirements.txt
 
-1️⃣ **Clone or unzip the project**
+✨ Features (Short)
+✅ Train a churn prediction model on sample data
+✅ Predict customer churn based on tenure, monthly charges & total charges
+✅ Simple Flask web app with form input
+✅ Shows result: Yes / No with churn probability (e.g., 72.3%)
+✅ Clear project structure & ready to extend with real data
 
-2️⃣ **Install dependencies**  
-```bash
-pip install -r requirements.txt
-```
+## 🚀 How to run
+1. Install requirements: `pip install -r requirements.txt`
+2. Go to `app` folder: `cd app`
+3. Run app: `python app.py`
 
-3️⃣ **Train the model** (this will create `model/iris_model.pkl`)
-```bash
-python train_model.py
-```
-
-4️⃣ **Start the Flask app**
-```bash
-python app.py
-```
-
-5️⃣ **Open in browser:**  
-Go to [http://127.0.0.1:5000](http://127.0.0.1:5000)
-
----
-
-## 🧪 **What this project does**
-- Loads Iris dataset (from sklearn)
-- Data exploration and visualization in `data_pipeline.ipynb`
-- Trains a RandomForestClassifier
-- Saves the model with `joblib`
-- Flask app serves a form to input features
-- Predicts and displays the predicted Iris species
-
----
-
-## ✅ **Requirements**
-- Python 3.7+
-- Flask
-- scikit-learn
-- pandas
-- numpy
-- joblib
-
-Install all using:
-```bash
-pip install -r requirements.txt
-```
+🌱 **Future Improvements**
+Replace sample data with a real churn dataset (e.g., from Kaggle)
+Try advanced models (XGBoost, Logistic Regression) & tune hyperparameters
+Improve web UI with Bootstrap & add visual probability bars
+Add explainability (SHAP/LIME) to show why customers may churn
+Deploy the app to cloud (Heroku, Render) for public access
 
 Enjoy exploring and extending this project! 🚀
